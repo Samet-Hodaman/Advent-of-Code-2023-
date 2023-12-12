@@ -1,6 +1,6 @@
 EXAMPLE = "./example.txt"
 
-INPUT = "./galaxy.txt"
+INPUT = "./input.txt"
 
 expanded_x = [] # the cols that contain no galaxies
 expanded_y = [] # the rows that contain no galaxies
