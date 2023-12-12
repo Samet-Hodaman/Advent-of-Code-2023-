@@ -41,7 +41,7 @@ public class CardsDao {
 	
 	public ArrayList<Hand> getHandsArrayList(){
 		ArrayList<Hand> handsArrayList = new ArrayList<>();
-		ArrayList<String> linesStringArrayList = FileIO.readFile("resources/inputs.txt");
+		ArrayList<String> linesStringArrayList = FileIO.readFile("resources/test.txt");
 		for(int i=0; i<linesStringArrayList.size(); i++) {
 			StringTokenizer stringTokenizer = new StringTokenizer(linesStringArrayList.get(i)," ");
 			String cardsString = stringTokenizer.nextToken();
